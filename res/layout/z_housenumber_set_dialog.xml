@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+	android:background="@android:color/transparent" 
+
+    >
+
+   <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        
+        android:layout_centerInParent="true"
+        android:background="@drawable/dialog_bg"
+        android:orientation="vertical" >
+
+        <!-- Title -->
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="45dp" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="扫描成功，请填写备注信息"
+                android:textSize="@dimen/normal_text_size"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="@color/black" />
+            
+        </RelativeLayout>
+   
+        <!-- split -->
+
+        <View
+            android:layout_width="fill_parent"
+           	android:layout_height="0.5dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:background="#d8d8d8" />
+		
+		<LinearLayout 
+		    android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:orientation="horizontal">
+		</LinearLayout>
+		
+		<LinearLayout 
+		    android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginBottom="10dp"
+            android:orientation="horizontal">
+		    
+		     <com.hqu.well_project.ClearEditText
+                android:id="@+id/extra_et"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:gravity="center_vertical"
+                android:layout_gravity="center_vertical"
+                android:background="@drawable/login_edit_normal"
+                android:drawableRight="@drawable/delete_selector"             
+                android:ems="10"
+                android:maxLength="99"
+                android:fitsSystemWindows="false"
+                android:scrollbarAlwaysDrawVerticalTrack="false"
+               	android:maxLines="2"
+                android:textCursorDrawable="@null"
+            	android:layout_marginLeft="3dp"
+                android:textSize="14sp" />
+		</LinearLayout>
+		
+		
+		<LinearLayout
+            android:layout_width="fill_parent"
+            android:orientation="horizontal"
+            android:layout_height="wrap_content" >
+
+			<Button
+			    android:id="@+id/btn_housenumber_cancel"
+			    android:layout_width="0dp"
+			    android:layout_height="40dp"
+			    android:layout_marginBottom="10dp"
+			    android:layout_marginLeft="15dp"
+			    android:layout_marginRight="5dp"
+			    android:layout_weight="1"
+			    android:background="@drawable/dialog_cancel_btn_bg"
+			    android:text="取消"
+			    android:textColor="@color/black"
+			    android:textSize="15sp" />
+            
+            
+            <Button
+                android:id="@+id/btn_housenumber_ok"
+                android:layout_width="0dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginBottom="10dp"
+          
+                android:layout_height="40dp"
+                android:layout_weight="1"
+                android:textSize="15sp"
+                android:background="@drawable/dialog_ok_btn_bg"
+                android:text="确定"
+                android:textColor="@color/white" />
+        </LinearLayout>
+		
+	</LinearLayout>
+   
+</RelativeLayout>

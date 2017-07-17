@@ -1,0 +1,49 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.hqu.smartcity.MainActivity" >
+<!--     <item
+        android:id="@+id/id_menu_map_common"
+        android:icon="@drawable/common_map"
+        android:showAsAction="never"
+        android:title="普通地图"/>
+    <item
+        android:id="@+id/id_menu_map_site"
+        android:icon="@drawable/sat_map"
+        android:showAsAction="never"
+        android:title="卫星地图"/>
+    <item
+        android:id="@+id/id_menu_map_traffic"
+        android:icon="@drawable/tranfic"
+        android:showAsAction="never"
+        android:title="开启实时交通"/>
+    <item
+        android:id="@+id/id_menu_map_myLoc"
+        android:icon="@drawable/my_loc"
+        android:showAsAction="never"
+        android:title="我的位置"/>
+    <item
+        android:id="@+id/id_menu_map_addMaker"
+        android:icon="@drawable/icon"
+        android:showAsAction="never"
+        android:title="查看空闲车位"/>
+    <item
+        android:id="@+id/id_menu_map_style"
+        android:icon="@drawable/change"
+        android:showAsAction="never"
+        android:title="地图模式【正常】"/> -->
+    <item
+        android:id="@+id/id_menu_map_offline"
+        android:icon="@drawable/logo"
+        android:showAsAction="never"
+        android:title="下载离线地图"/>    
+    <!-- <item
+        android:id="@+id/login_activity"
+        android:showAsAction="withText|ifRoom"
+        android:title="@string/action_example"/>
+    <item
+        android:id="@+id/channelId"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/action_settings"/> -->
+
+</menu>

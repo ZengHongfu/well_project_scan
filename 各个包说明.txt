@@ -1,0 +1,21 @@
+1. com.example.fix_position -> 地图主界面相关Activity
+
+2. com.example.jpushdemo -> 极光推送及点击通知栏推送显示弹窗相关程序
+
+3. com.example.ordermenu.fragment -> 订单管理相关
+
+4. com.example.updateversion -> app版本更新相关
+
+5. com.hqu.menu -> 查询页面、列表、详情
+
+6. com.hqu.smartcity.improve -> 一些工具类
+
+7. com.hqu.smartcity.improve.request -> app查询和控制的请求接口
+
+8. com.hqu.smartcity.improve.request.query -> 接口返回参数相关
+
+9. com.hqu.smartcity.improve.zeta.encryption -> 加密类
+
+10. com.hqu.well_project -> 闪屏页及登录界面
+
+11. com.wheel -> 时间选择控件
